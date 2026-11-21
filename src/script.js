@@ -1,2 +1,2 @@
 import './styles/theme.css';
-import './styles/main.css';
+import './styles/style.css';

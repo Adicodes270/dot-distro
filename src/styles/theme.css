@@ -1,0 +1,33 @@
+:root {
+  /* Backgrounds & Surfaces */
+  --bg-main: hsl(220, 15%, 8%);
+  --bg-surface: hsl(220, 15%, 13%);       /* Cards, navbar, modals */
+  --bg-surface-hover: hsl(220, 15%, 18%); /* Interactive hover states */
+
+  /* Text */
+  --text-primary: hsl(220, 15%, 95%);
+  --text-secondary: hsl(220, 10%, 65%);   /* Descriptions, subtitles */
+  --text-muted: hsl(220, 10%, 45%);       /* Placeholders, disabled text */
+
+  /* Brand / Accent */
+  --accent: hsl(195, 90%, 55%);
+  --accent-hover: hsl(195, 90%, 65%);
+  --accent-text: hsl(220, 15%, 8%);       /* Text on top of accent buttons */
+
+  /* Borders */
+  --border-subtle: hsl(220, 15%, 20%);
+  --border-strong: hsl(220, 15%, 30%);
+
+  /* Status (useful for swipe actions & distro comparisons) */
+  --success: hsl(145, 65%, 48%);
+  --danger: hsl(0, 75%, 60%);
+  --warning: hsl(38, 90%, 55%);
+
+  /* Typography */
+    --font-display: 'Orbitron', sans-serif;
+
+  /* Spacing & Radii */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+}
