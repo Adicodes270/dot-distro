@@ -42,12 +42,26 @@ body {
   font-weight: 600;
 }
 
+.logo:hover{
+  opacity:0.85;
+}
+
+
 
 nav ul {
   display: flex;
   gap: 2rem;
   list-style: none;
 }
+
+
+nav li:hover {
+
+  color: var(--text-primary)
+
+
+}
+
 
 nav {
   margin-inline: auto;
@@ -71,15 +85,24 @@ nav {
   background-color: var(--bg-surface);
   color: var(--text-primary);
   cursor: pointer;
+  transition: all 0.3s;
 }
 
+.header-actions button:hover {
+  transform: translateY(-3px);
+}
 
 #explore {
   background-color: var(--accent);
   color: var(--accent-text);
   border-color: var(--accent);
+  transition: all 0.3s;
 }
 
+#explore:hover {
+  transform: translateY(-3px);
+  background-color: var(--accent-hover);
+}
 
 .home {
   min-height: 80vh;
@@ -103,3 +126,4 @@ nav {
 #subtitle {
   color: var(--text-secondary)
 }
+
