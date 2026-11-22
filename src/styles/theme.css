@@ -4,6 +4,8 @@
   --bg-surface: hsl(210, 10%, 11%);       /* Cards, navbar, modals */
   --bg-surface-hover: hsl(210, 10%, 16%); /* Interactive hover states */
 
+
+  
   /* Text */
   --text-primary: hsl(210, 15%, 95%);
   --text-secondary: hsl(210, 10%, 62%);   /* Descriptions, subtitles */
